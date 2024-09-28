@@ -1,0 +1,680 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap');    
+body {
+    background-image: url(./car.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+ 
+}
+:root {
+    --primary-color: #f5b754;
+    --primary-color-dark: #d6a04a;
+    --text-dark: #15191d;
+    --text-light: #737373;
+    --extra-light: #e5e5e5;
+    --white: #ffffff;
+    --max-width: 1200px;
+    --header-font: "Syncopate", sans-serif;
+  }
+h3{
+    font-size: 16px;
+    font-family: "syncopate";
+    font-weight: 600;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 250px;
+    margin-top: 24px;
+    
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+   
+}
+
+a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: "poppins";
+}
+
+.btn {
+    height: 37px;
+    width: 84px;
+    border-radius: 9px;
+    background-color: orange;
+    border: none;
+}
+
+a:hover {
+    color: orangered;
+}
+
+.color {
+    position: absolute;
+    bottom: 380px;
+    left: 420px;
+    font-family: "Syncopate";
+
+}
+
+span {
+    padding-left: 59px;
+}
+
+h4 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 700;
+
+}
+
+.FORM {
+    width: 640px;
+    height: 68px;
+    background-color: white;
+    position: absolute;
+    top: 260px;
+    left: 280px;
+    display: flex;
+
+}
+
+.cointainer {
+    display: flex;
+    align-items: center;
+
+    height: 100%;
+
+}
+
+.input {
+    padding-top: 9px;
+    padding-left: 19px;
+    font-family: "poppins";
+    font-weight: 600;
+
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+.icon {
+    position: absolute;
+    bottom: 12px;
+    left: 190px;
+    font-family: "poppins";
+    font-weight: 600;
+
+}
+
+.car {
+    padding-left: 290px;
+    padding-top: 8px;
+    font-family: "poppins";
+    font-weight: 600;
+}
+
+.picture {
+    position: absolute;
+    top: 200px;
+    left: 280px;
+
+    width: 100%;
+    height: 100px;
+   
+}
+
+img {
+    width: 600px;
+    margin-top: 170px;
+}
+.web-4{
+    font-family: "Syncopate";
+}
+.web {
+    position: absolute;
+    top: 700px 
+}
+
+.web {
+ 
+    padding-left: 440px;
+    background-repeat: no-repeat;
+}
+
+.azan {
+    align-items: center;
+    display: flex;
+}
+.cointainer{
+   display: flex;
+}
+.car-1{
+    width: 320px;
+    position: relative;
+    bottom: 330px;
+    right: 182px;
+    border-radius: 13px;
+    font-family: "Syncopate";
+    
+}
+.hamara{
+    width: 320px;
+    position: relative;
+    bottom: 330px;
+    right: 172px;
+    border-radius: 13px;
+    font-family: "Syncopate";
+}
+.range{
+    width: 320px;
+    position: relative;
+    right: 822px;
+    top: 149px;
+    font-family: "Syncopate";
+    border-radius: 13px;
+}
+.document{
+    width: 320px;
+    position: relative;
+    right: 490px;
+    bottom: 300px;
+    border-radius: 13px;
+    font-family: "Syncopate";
+}
+
+.width{
+    position: relative;
+    bottom: 540px;
+    right: 150px;
+    color: white;
+    font-size: 32px;
+}
+.span{
+    position: relative;
+    bottom: 540px;
+    right: 170px;
+    color: white;
+    font-size: 32px;
+}
+.aazan-9{
+    position: relative;
+    right: 799px;
+    bottom: 80px;
+    color: white;
+    font-size: 32px;
+}
+.icon-4{
+    position: relative;
+    right: 470px;
+    bottom: 510px;
+    color: white;
+    font-size: 32px;
+}
+.twiter{
+position: relative;
+bottom: 230px;
+right: 180px;
+font-family: "Syncopate";
+}
+.lamornagi,.van-1,.bike,.image{
+    font-family: "Syncopate";
+}
+p{
+    position: relative;
+    bottom: 200px;
+    right: 180px;
+    font-family: "poppins";
+    font-size: 14px;
+}
+.btn-3:hover{
+    background-color: blue;
+}
+.button-1{
+    position: relative;
+    bottom: 159px;
+    right: 180px;
+  
+   
+}
+.lamon{
+    border-bottom: 1px solid red;
+    width: 100px;
+    margin-right: 100px;
+}
+.btn-3{
+    width: 100px;
+    height: 36px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.pakistan{
+    width: 300px;
+    position: relative;
+    bottom: 640px;
+    left: 340px;
+    
+}
+
+.color-7{
+   
+  position: absolute;
+  top: 1540px;
+
+}
+  
+.olo{
+   
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.pick{
+    position: relative;
+    bottom: 630px;
+    left: 399px;
+    font-family: "Syncopate";
+}
+.open{
+    padding-left: 60px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.race{
+    position: relative;
+    bottom: 760px;
+    left: 349px;
+    width: 480px;
+    }
+    .png{
+        position: relative;
+        bottom: 1054px;
+        width: 330px;
+    }
+    .copy{
+        position: relative;
+        bottom: 1369px;
+        left: 880px;
+        width: 330px;
+    }
+    .azzan-9,.azzan-11{
+        position: relative;
+        bottom: 200px;
+    
+        font-size: 30px;
+        padding-left: 49px;
+        
+       }
+   .iconall{
+    display: flex;
+   
+   }
+  
+   .azzan-9,.azzan-11{
+    position: relative;
+    left: 330px;
+   }
+   .speed{
+    position: relative;
+    bottom: 160px;
+    left: 290px;
+    font-size: 18px;
+   }
+   .setting{
+       position: relative;
+       top: px;
+       left: 19px;
+       bottom: 19px;
+   }
+
+
+   .color-90{
+    width: 499px;
+    height: 60px;
+    background-color: rgb(201, 195, 195);
+    position: relative;
+   right: 149px;
+    bottom: 40px;
+    font-family: "Syncopate";
+  
+   }
+   .table{
+    position: relative;
+   right: 60px;
+    font-size: 12px;
+    font-family: "Syncopate";
+    
+   }
+   .hover-9:hover{
+  background-color: orange;
+   }
+   .hover-9,.hover-4{
+    width: 100px;
+    height: 36px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    position: relative;
+    left: 270px;
+    bottom: 20px;
+   }
+  .hover-4{
+    background-color: orange;
+  }
+  .color-80{
+    position: relative;
+    top: 20px;
+  }
+.comfart{
+    position: relative;
+    bottom: 960px;
+    left: 440px;
+    font-family: "Syncopate";
+}
+.stories{
+    position: relative;
+    bottom: 879px;
+    left: 209px;
+    font-family: "Syncopate";
+    border-bottom:2px solid black;
+    width: 228px;
+}
+.lamon{
+    position: relative;
+    bottom: 924px;
+    left: 260px;
+    font-size: 14px;
+    right: 0px;
+    display: flex;
+}
+.stbarow{
+    position: relative;
+    bottom: 1000px;
+    left: 510px;
+    font-size: 14px;
+    right: 0px;
+    display: flex;
+    
+}
+.google{
+    position: relative;
+    bottom: 958px;
+    left: 460px;
+   
+    border-bottom: 2px solid black;
+    width: 260px;
+    font-family: "Syncopate"
+ 
+}
+.feecbook{
+    position: relative;
+    bottom: 1030px;
+    left: 749px;
+    border-bottom: 2px solid ;
+    width: 270px;
+    font-family: "Syncopate"
+    
+}
+.cherry{
+    position: relative;
+    bottom: 1079px;
+    left: 800px;
+    font-size: 14px;
+    right: 0px;
+    display: flex;
+    
+}
+.advanture{
+    position: relative;
+    bottom: 1049px;
+    left: 200px;
+    font-size: 11px;
+     font-family: "Syncopate";
+}
+.clasess{
+    position: relative;
+   top: 10px;
+  left: 1px;
+  font-size: 10px;
+}
+.weel{
+    width: 240px;
+    position: relative;
+    bottom: 140px;
+}
+.prince-1{
+    position: relative;
+    bottom: 1490px;
+    left: 460px;
+    font-size: 11px;
+     font-family: "Syncopate";
+}
+.prince-2{
+    position: relative;
+    top: 10px;
+    left: 19px;
+    font-size: 10px;
+}
+.ul{
+    width: 240px;
+    position: relative;
+    bottom: 140px;
+}
+.li-3{
+    position: relative;
+    bottom: 1920px;
+    left: 740px;
+    font-size: 11px;
+     font-family: "Syncopate";
+}
+.kashan-4{
+    position: relative;
+top: 10px;
+    left: 9px;
+    bottom: 0px;
+    font-size: 10px;
+}
+.place{
+    width: 260px;
+    height: 197px;
+    position: relative;
+    bottom: 149px;
+    right: 20px;
+}
+.i{
+    width: 110px;
+    position: relative;
+    top: 30px;
+
+}
+.i,.m,.n,.k,.w,.i,.p{
+    width: 110px;
+}
+.all-90{
+    padding-block: 6rem;
+  
+    position: relative;
+    bottom: 2020px;
+  
+}
+.logo{
+   
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+
+    
+    animation: scroll 45s linear infinite;
+    width: 110px;
+}
+.logo{
+    height: 70px;
+}
+@keyframes scroll{
+    to{
+        transform: translatex(calc(-50% - 80rem))
+    }
+}
+.background{
+    background-color:   #faa039;
+    width: 800px;
+    height: 210px;
+    position: relative;
+ 
+    bottom: 90px;
+    left: 299px;
+    border-radius: 10px;
+}
+.field{
+    width: 110px;
+    position: relative;
+    bottom: 349px;
+    left: 20px;
+}
+.kashan-22{
+    font-family: "Syncopate";
+    font-size: 24px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+.fine{
+    background-color: #15191D;
+    opacity: 90px;
+    position: relative;
+    top: 400px;
+    width: 100%;
+    height: 900px;
+}
+.legend-1{
+    width: 230px;
+    position: relative;
+    bottom: 310px;
+    left: 260px;
+}
+.you{
+    position: relative;
+    left: 300px;
+    font-family: "Syncopate";
+    bottom: 20px ;
+    color: white;
+    font-size: 30px;
+}
+.oil{
+    position: relative;
+    left: 900px;
+    color: white;
+    bottom: 90px;
+    border: none;
+    outline: none;
+   font-size: 14px;
+    background-color: transparent;
+    border-bottom: 2px solid grey;
+    width: 200px;
+
+}
+input{
+    border: none;
+    outline: none;
+
+}
+.mack{
+    position: relative;
+    left: 930px;
+    font-size: 28px;
+    bottom: 80px;
+    color: wheat;
+align-items: center;
+justify-content: center;
+}
+.mack:hover{
+    color: #faa039;
+}
+.verb{
+    font: 10px;
+    color: wheat;
+
+    font-family: "Syncopate";
+    margin-left: 280px
+}
+h6{
+    font-size: 14px;
+}
+.chrome{
+    color: rgb(192, 187, 175);
+    font-size: 12px;
+   position: relative;
+   top: 20px;
+   left: 279px;
+}
+.chrome-t{
+      color: rgb(192, 187, 175);
+    font-size: 12px;
+   position: relative;
+ 
+   left: 499px;
+   bottom: 110px;
+}
+.verb-10{
+    font: 140px;
+    display: flex;
+    color: wheat;
+    position: relative;
+  left: 499px;
+  bottom: 130px;
+  font-family: "Syncopate";
+    
+}
+.verb-19{
+    font: 140px;
+    display: flex;
+    color: white;
+    position: relative;
+  left: 699px;
+  bottom: 297px;
+  font-family: "Syncopate"; 
+}
+.chrome-l{
+    color:rgb(182, 179, 173);
+    font-size: 12px;
+   position: relative;
+ 
+   left: 740px;
+   bottom: 270px;
+}
+.chrome-l:hover{
+    color: white;
+}
+.chrome-t:hover{
+    color: white;
+}
+.chrome:hover{
+    color: white;
+}
